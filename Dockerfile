@@ -1,10 +1,5 @@
 FROM alpine
 
-ARG URL
-ARG TIMES
-ENV URL=${URL}
-ENV TIMES=${TIMES}
-
 COPY ./get.sh /get.sh
 
 WORKDIR /

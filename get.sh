@@ -1,8 +1,6 @@
 #!/bin/sh
 ########################################"
 
-# TIMES=500
-# URL=www.google.com.br
 x=1
 while [ $x -le $TIMES ]
 do
